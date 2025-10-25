@@ -8,7 +8,6 @@ kotlin {
             dependencies {
                 implementation(libs.kotlin.stdlib)
 
-                implementation(projects.core.domain)
             }
         }
 
