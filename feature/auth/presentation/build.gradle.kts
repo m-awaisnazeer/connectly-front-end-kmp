@@ -9,6 +9,7 @@ kotlin {
                 implementation(libs.kotlin.stdlib)
 
                 implementation(projects.core.domain)
+                implementation(projects.feature.auth.domain)
                 implementation(compose.components.resources)
                 implementation(compose.components.uiToolingPreview)
             }
