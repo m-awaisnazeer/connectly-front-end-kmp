@@ -47,7 +47,7 @@ class HttpClientFactory(
             }
             defaultRequest {
                 //todo
-                //header("x-api-key", BuildKonfig.API_KEY)
+                header("x-api-key", "WaF04-jwDBb9IQTqyBbVbjoHASU")
                 contentType(ContentType.Application.Json)
             }
         }
